@@ -1,7 +1,7 @@
 <mvc:View controllerName="nmsfiori.Customer.controller.CustomerList" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
 	<List id="idCustomerList" headerText="{i18n>CustomerListTitle}" class="sapUiResponsiveMargin" width="auto" 
-		items="{ 
-		path: 'customerWz>/Customers',
+		items="{
+		path: 'customer>/Customers',
 		sorter: {
 			path: 'Country',
 			group: true
@@ -15,11 +15,11 @@
 			</Toolbar>
 		</headerToolbar>
 		<items>
-			<ObjectListItem title="{customerWz>CompanyName} / {customerWz>ContactName} - {customerWz>City}"
-				number="{customerWz>PostalCode}">
+			<ObjectListItem title="{customer>CompanyName} / {customer>ContactName} - {customer>City}"
+				number="{customer>PostalCode}">
 				<firstStatus>
 					<ObjectStatus text="{ 
-						path: 'customerWz>ContactTitle', 
+						path: 'customer>ContactTitle', 
 						formatter: '.formatter.contactTitleText'
 					}"/>
 				</firstStatus>
