@@ -1,0 +1,18 @@
+<mvc:View controllerName="nmsfiori.Customer.controller.App" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core"
+	displayBlock="true">
+	<Shell>
+		<App>
+			<pages>
+				<Page title="{i18n>PageTitle}">
+					<headerContent>
+						<Button id="buttonOpenHeader" icon="sap-icon://action" class="sapUiSmallMarginEnd" press=".onOpenDialog"/>
+					</headerContent>
+					<content>
+						<mvc:XMLView viewName="nmsfiori.Customer.view.HelloPanel"/>
+						<mvc:XMLView viewName="nmsfiori.Customer.view.CustomerList"/>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>

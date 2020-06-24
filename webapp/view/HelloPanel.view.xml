@@ -1,0 +1,10 @@
+<mvc:View controllerName="nmsfiori.Customer.controller.HelloPanel" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+	<Panel headerText="{i18n>HelloPanelTitle}" class="sapUiResponsiveMargin" width="auto">
+		<content>
+			<Button id="buttonOpenDialog" icon="sap-icon://action" text="{i18n>DialogButtonText}" class="sapUiSmallMarginEnd" press=".onOpenDialog"/>
+			<Button id="buttonSayHello" text="{i18n>SayHelloButtonText}" class="sapUiSmallMarginEnd" press=".onShowHello"/>
+			<Input value="{/recipient/name}" valueLiveUpdate="true" width="60%"/>
+			<Text text="{i18n>HelloInputText} {/recipient/name}" class="sapUiSmallMargin boldElements"/>
+		</content>
+	</Panel>
+</mvc:View>
