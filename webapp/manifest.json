@@ -54,7 +54,7 @@
 				}
 			},
 			"customer": {
-				"type": "sap.ui.model.JSONModel",
+				"type": "sap.ui.model.json.JSONModel",
 				"uri": "customer.json"
 			}
 		},
