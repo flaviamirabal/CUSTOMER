@@ -9,7 +9,7 @@
 					<content>
 						<mvc:XMLView viewName="nmsfiori.Customer.view.HelloPanel"/>
 						<mvc:XMLView viewName="nmsfiori.Customer.view.CustomerListWz"/>	
-					</content>
+					</content> 
 				</Page>
 			</pages>
 		</App>
