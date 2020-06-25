@@ -68,7 +68,7 @@
 			},
 			"customer": {
 				"type": "sap.ui.model.json.JSONModel",
-				"uri": ".localService.mockdata.customer.json"
+				"uri": ".localService.mockdata.customer"
 			},
 			"customerWz": {
 				"type": "sap.ui.model.odata.v2.ODataModel",
