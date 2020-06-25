@@ -14,7 +14,7 @@
 				"uri": "https://services.odata.org/V2/Northwind/Northwind.svc/",
 				"type": "OData",
 				"settings": {
-					"odataVersion": "2.0"
+					"localUri": "localService/metadata.xml"
 				}
 			}
 		},
@@ -67,8 +67,8 @@
 				}
 			},
 			"customer": {
-				"type": "sap.ui.model.json.JSONModel",
-				"uri": ".localService.mockdata.customer"
+				"type":  "sap.ui.model.odata.v2.ODataModel",
+				"dataSource": "Northwind.svc"
 			},
 			"customerWz": {
 				"type": "sap.ui.model.odata.v2.ODataModel",

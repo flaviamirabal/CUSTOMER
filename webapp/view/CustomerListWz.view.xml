@@ -1,7 +1,7 @@
 <mvc:View controllerName="nmsfiori.Customer.controller.CustomerList" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
 	<List id="idCustomerList" headerText="{i18n>CustomerListTitle}" class="sapUiResponsiveMargin" width="auto" 
 		items="{
-		path: 'customer>/Customers',
+		path: 'customer>/customer',
 		sorter: {
 			path: 'Country',
 			group: true
